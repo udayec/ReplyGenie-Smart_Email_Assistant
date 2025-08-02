@@ -1,0 +1,9 @@
+#replygenie-modal input {
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#replygenie-modal button {
+  cursor: pointer;
+}
