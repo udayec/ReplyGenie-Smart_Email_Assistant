@@ -2,6 +2,7 @@ package com.email.writer.app;
 
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -10,6 +11,8 @@ import org.springframework.web.bind.annotation.*;
 @AllArgsConstructor
 @CrossOrigin(origins = "*")
 public class EmailGeneratorController {
+
+    @Value("${frontend.url}")
 
     @Autowired
     private final EmailGeneratorService emailGeneratorService;

@@ -111,6 +111,7 @@ const handleDownload = () => {
                 <MenuItem value="professional">Professional</MenuItem>
                 <MenuItem value="polite">Polite</MenuItem>
                 <MenuItem value="friendly">Friendly</MenuItem>
+                <MenuItem value="angry">Angry</MenuItem>
                 <MenuItem value="casual">Casual</MenuItem>
                 <MenuItem value="assertive">Assertive</MenuItem>
                 <MenuItem value="apologetic">Apologetic</MenuItem>
@@ -156,6 +157,7 @@ const handleDownload = () => {
                   rows={8}
                   variant="outlined"
                   value={generatedReply}
+                  onChange={(e) => setGeneratedReply(e.target.value)}
                   className="mb-4"
                 />
               </div>
