@@ -31,3 +31,16 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Environment files
+.env
+*.env
+
+# IntelliJ / VSCode
+.idea/
+
+
+# Build
+/target/
+/build/
+
